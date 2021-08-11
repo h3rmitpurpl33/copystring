@@ -14,6 +14,6 @@ for(i=0;i<len;i++)
     }
 }
 p[cnt] = '\0';
-printf("%99s" , p);
+printf("%s" , p);
 return 0;
 }
