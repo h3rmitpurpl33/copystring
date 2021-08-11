@@ -13,7 +13,7 @@ for(i=0;i<len;i++)
         continue;
     }
 }
-p[cnt] = '\0';
+p[cnt] = '\0';//give the null character, so the compiler can detect, that it points to a string
 printf("%s" , p);
 return 0;
 }
