@@ -6,7 +6,7 @@ printf("enter text : ");
 len = read_text(str,sizeof(str),1);
 for(i=0;i<len;i++)
 {
-    if((str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= 'a' && str[i] <= 'z')){
+    if((str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= 'a' && str[i] <= 'z') || (str[i] == ' ')){//added some code to include spaces
         p[cnt] = str[i];
         cnt++;
     }else{
